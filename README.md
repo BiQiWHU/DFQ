@@ -6,13 +6,14 @@ This is the official implementation of our work entitled ```DFQ: Learning Genera
 An example of training and inference is given below.
 
 ## Environment Configuration
-
+The basic enviroment dependencies include:
 ```
     pip install torchvision==0.8.2
     pip install timm==0.3.2
     pip install mmcv-full==1.2.7
     pip install opencv-python==4.5.1.48
 ```
+For other minor packages, please refer to the ```requirements.txt``` file in this project.
 
 ## Training on Source Domain
 An example of training on ```DD Fundus benchmark``` with ```domain-0``` as ```unseen target domain``` is given below.
