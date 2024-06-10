@@ -26,6 +26,7 @@ An example of inference on a pre-trained model is given below.
 python -W ignore test_fundus_slice_feed.py --model_file outdir/fundus/target0_pretrain_0.99_b3_feed_iw/model_xx.xx.pth --dataset fundus --data_dir D:/Med/dataset --datasetTest 0 --encoder b3 --test_prediction_save_path results/fundus/target0_pretrain_0.99_b3_feed_iw_xx.xx --save_result
 ```
 By using this CMD, not only the numerical results but also the visual prediction can be outputted.
+Here ```model_xx.xx.pth``` refers to the name of a pre-trained model, where ```x``` refers to a number value.
 
 # Citation
 
