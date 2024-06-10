@@ -13,10 +13,10 @@ An example of training and inference is given below.
 ```
 
 ## Training on Source Domain
-An example of training on ```CityScapes``` source domain is given below.
+An example of training on ```DD Fundus benchmark``` with ```domain-0``` as ```unseen target domain``` is given below.
 
 ```
-python train_net.py --num-gpus 2 --config-file configs/cityscapes/semantic-segmentation/swin/maskformer2_swin_base_IN21k_384_bs16_90k.yaml
+python -W ignore train_feed.py --data_root D:/Med/dataset --dataset fundus --domain_idxs 1,2,3 --test_domain_idx 0 --is_out_domain --consistency --consistency_type kd --encoder b3 --save_path outdir/fundus/target0_pretrain_0.99_b3_feed_iw
 ```
 
 ## Inference on Unseen Target Domains
