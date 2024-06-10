@@ -43,8 +43,11 @@ If you find our work useful, please cite as
 ```BibTeX
 @inproceedings{bi2024learning,
   title={Learning Generalized Medical Image Segmentation from Decoupled Feature Queries},
-  author={Qi, Bi and Jingjun, Yi and Hao, Zheng and Wei, Ji and Yawen, Huang and Yuexiang, Li and Yefeng, Zheng},
-  journal={AAAI},
+  author={Bi, Qi and Yi, Jingjun and Zheng, Hao and Ji, Wei and Huang, Yawen and Li, Yuexiang and Zheng, Yefeng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={2},
+  pages={810--818},
   year={2024}
 }
 ```
