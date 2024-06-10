@@ -15,6 +15,11 @@ The basic enviroment dependencies include:
 ```
 For other minor packages, please refer to the ```requirements.txt``` file in this project.
 
+You can directly set up all the enviroment dependencies by
+```
+pip install -r requirements.txt
+```
+
 ## Training on Source Domain
 An example of training on ```DD Fundus benchmark``` with ```domain-0``` as ```unseen target domain``` is given below.
 
