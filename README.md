@@ -37,6 +37,6 @@ If you find our work useful, please cite as
 
 The development of ```Decoupled Feature Queries``` (DFQ) largely relies on two prior projects:
 
-(1) The code of dataloader is based on ```RAM``` published in ```CVPR2022```, with the code link [].
+(1) The code of dataloader is based on ```RAM``` published in ```ECCV2022```, with the code link [https://github.com/zzzqzhou/RAM-DSIR].
 
 (2) The code of ```feature as query``` is highly based on ```FeedFormer``` published in ```AAAI2023```, with the code link [].
